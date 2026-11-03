@@ -1,0 +1,39 @@
+//////////////////////////////////////////////////////////////////////////
+//
+// Program Name   : program77.c
+// Description    : Display odd number 
+// Input          : Integer
+// Output         : Integer
+// Author         : Suraj Navanath Naykude
+// Date           : 04/11/2026
+//
+//////////////////////////////////////////////////////////////////////////
+// Input : 10
+// 1    3   5   7   9
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void Display(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iNo; iCnt = iCnt + 2)
+    {
+        printf("%d\t",iCnt);
+    }  
+
+    printf("\n");
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter the frequency : \n");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+
+    return EXIT_SUCCESS;
+}
