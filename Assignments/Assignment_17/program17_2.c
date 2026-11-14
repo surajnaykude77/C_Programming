@@ -10,7 +10,7 @@
 //////////////////////////////////////////////////////////////////////////
 
 /*
-    Input = iRow = 4      iCol = 4
+    Input = iRow = 5      iCol = 5
 
     Output  =   2   4   6   8   10
                 1   3   5   7   9
@@ -42,7 +42,7 @@ void Pattern(int iRow, int iCol)
         }
         for (j = 1; j <= iCol; j++)
         {
-            printf("%d",iCnt);
+            printf("%d\t",iCnt);
             
             iCnt += 2;
         }
